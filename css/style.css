@@ -314,3 +314,31 @@ li:not(:first-child) {
     right: 8px;
     font-size: 50px;
 }
+
+.nav-inside:hover {
+	cursor: pointer;
+}
+
+.nav-header:hover {
+	cursor: pointer;
+}
+
+.sidebar-item:hover {
+	cursor: pointer;
+}
+
+.plus-sign:hover {
+	cursor: pointer;
+}
+
+h4:hover {
+	cursor: pointer;
+}
+
+p > span:hover {
+	cursor: pointer;
+}
+
+section * :hover {
+	cursor: pointer;
+}
