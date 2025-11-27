@@ -112,6 +112,7 @@ da rimuovere una volta concluso
 
 .nav-inside:last-child {
 	opacity: 1;
+	padding: 7px;
 }
 
 .sidebar {
@@ -138,10 +139,16 @@ footer span {
 	font-weight: bold;
 }
 
-section {
+ul {
 	color: white;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	max-width: 512px;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
 }
