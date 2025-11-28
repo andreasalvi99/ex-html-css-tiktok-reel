@@ -317,6 +317,8 @@ li:not(:first-child) {
 
 .nav-inside:hover {
 	cursor: pointer;
+	font-weight: bold;
+	transition: all 0.3s ease;
 }
 
 .nav-header:hover {
